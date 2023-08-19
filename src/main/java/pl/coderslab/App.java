@@ -10,6 +10,8 @@ public class App {
         HelloWorld hw1 = context.getBean("helloWorld", HelloWorld.class);
         hw1.printMessage();
 
+        HelloWorld hw2 = context.getBean("helloWorld1", HelloWorld.class);
+        hw2.printMessage();
 
         context.close();
     }

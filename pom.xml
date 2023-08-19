@@ -5,7 +5,6 @@
     <groupId>pl.coderslab</groupId>
     <artifactId>jee-spring-xml</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
 
     <name>jee-spring-xml</name>
 
@@ -21,6 +20,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring-framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
